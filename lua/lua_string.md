@@ -43,7 +43,8 @@ end
 s = table.concat(t,"")
 --[[
     table.concat(table,seq,start,end)
-    concat是concatenate(连锁,连接)的缩写，table.concat()函数列出参数中指定table中的连续数组部分从start位置到end位置的所有元素，元素间以指定的分隔符隔开，除table外，其他参数都不是必须的，分隔符的默认值为空字符串，start默认为1，end默认为数组总长。
+    concat是concatenate(连锁,连接)的缩写，table.concat()函数列出参数中指定table中的连续数组部分从start位置到end位置的所有元素，
+    元素间以指定的分隔符隔开，除table外，其他参数都不是必须的，分隔符的默认值为空字符串，start默认为1，end默认为数组总长。
     扩展:
     table.insert(table,pos,value)
     table.insert()函数在table的数组部分指定位置插入值为value的元素，pos可选，默认数组部分末尾
